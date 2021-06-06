@@ -1,0 +1,156 @@
+:root{
+    --blackblue:#192a51;
+    --navheight: 7rem;
+    --textcolor:#5b6781;
+}
+
+body{
+    background: #fdf6f0;
+}
+
+body a{
+    color: var(--blackblue);
+    text-decoration: none;
+    padding: 0;
+}
+
+body p{
+    color: var(--textcolor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h2{
+    font-family: 'Josefin Slab', Times, serif;
+}
+
+nav {
+    width: 80%;
+    height: var(--navheight);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav > .nav_rightside {
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color:var(--blackblue);
+}
+
+nav .nav_leftside-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: large;
+    margin-right: 2rem;
+    color: #333;
+    transition: ease .5s;
+}
+
+nav .nav_leftside-item:hover {
+    color: #192a51;
+}
+
+section {
+    width: 80%;
+    height: calc(100vh - var(--navheight));
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section * {
+    margin-top: -.1rem;
+}
+
+section a{
+    color: var(--blackblue);
+}
+
+section h2 {
+    font-size: 7rem;
+    font-weight: lighter;
+    font-style: normal;
+    color: var(--blackblue);
+}
+
+section p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-top: -2rem;
+}
+
+section .section_content2 {
+    margin-top: 1rem;
+}
+
+figure {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;   
+}
+
+figure figcaption{
+    height: 50%;
+    margin: auto;
+    font-size: 1.4rem;
+}
+
+figure figcaption h2{
+    font-size: 4rem;
+    margin: 0;
+    font-weight: lighter;
+}
+
+figure figcaption p{
+    line-height: 2rem;
+}
+
+figure figcaption a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+figure img {
+    width: 487px;
+    height: 565px;
+    border-radius: 1rem;
+}
+
+footer{
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    padding-bottom: 4rem;
+    margin-top: 8rem;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer_leftside{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .footer_leftside h2{
+    margin: 0;
+}
+
+footer .footer_leftside a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2rem;
+}
+
+footer img{
+    height: 108px;
+}
